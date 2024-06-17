@@ -86,7 +86,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
     .header {
         width: 100%;
     }
@@ -102,4 +102,6 @@
     justify-content: center;
     width: 100%;
     margin-left: 46px;
+}
+
 }
