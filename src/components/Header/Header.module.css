@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-cinza);
+    border-bottom: 3px solid var(--azul-escuro);
+    width: 100%;
+    height: 96px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.logoH {
+    width: 169px;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    top: 40px;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 40px;
+    height: 54px;
+    text-align: center;
+    gap: 25px;
+}
+
+.linkHome {
+    align-items: center;
+    background-color: var(--black);
+    border: var(--azul-medio);
+    border-radius: 10px;
+    border: 2px transparent transparent;
+    border-bottom: 2px solid var(--branco);
+    box-shadow: 0px 0px 12px 4px var(--azul-medio) inset;
+    color: var(--azul-medio);
+    cursor: pointer;
+    font-family: var(--cor-fonte-principal);
+    font-size: 20px;
+    font-weight: bold;
+    width: 181px;
+    height: 54px;
+    padding: 16px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.linkHome:hover {
+    background-color: var(--cor-fonte-principal);
+    color: var(--branco);
+}
+
+.linkVideo {
+    align-items: center;
+    background-color: var(--cor-cinza);
+    border-radius: 10px;
+    border: 2px transparent transparent;
+    border-bottom: 2px solid var(--azul-medio);
+    box-shadow: 0px 0px 12px 4px var(--branco) inset;
+    color: var(--branco);
+    font-family: var(--cor-fonte-principal);
+    font-size: 20px;
+    font-weight: bold;
+    width: 181px;
+    height: 54px;
+    text-align: center;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.linkVideo:hover {
+    background-color: var(--branco);
+    color: var(--black);
+}
+
+@media (max-width: 600px) {
+    .logoH {
+        display: none;
+    }
+
+    .nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 30px;
+        width: 100%;
+
+        text-align: center;
+    }
+}

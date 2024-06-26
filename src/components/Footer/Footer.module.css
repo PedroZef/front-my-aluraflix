@@ -1,0 +1,27 @@
+.footerContainer {
+    align-items: center;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    border-top: 3px solid var(--azul-escuro);
+    justify-content: space-between;
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    z-index: 1000;
+    padding-block: 8px;
+}
+
+.logoF {
+    width: 172px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text {
+    align-items: center;
+    color: #ecd504;
+    font-size: 14px;
+    text-align: center;
+}
